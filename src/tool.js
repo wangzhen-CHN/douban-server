@@ -1,29 +1,31 @@
 const request = require('request')
 const path = require('path')
+const fs = require('fs')
 
 function writeHot(type = 'tv') {
   request(getOptions(type), (error, _, body) => {
     const data = formatJson(JSON.parse(body).items)
     const date = new Date().toLocaleString()
-    fs.writeFile(path.resolve(`./${type}Data.json`), JSON.stringify(data,null, 4), (err) => {
-      if (err) {
-        console.log(`${date} 写入 ${type} 失败`)
-        throw err
-      }
-      console.log(`${date} 写入 ${type} 成功`)
-    })
+    try {
+      fs.writeFileSync(path.resolve(`./src/${type}Data.json`), JSON.stringify(data, null, 4))
+      console.log(`${date} 写入 ${type}Data 成功`)
+      return '请求成功'
+    } catch (error) {
+      console.log(`${date} 写入 ${type}Data 失败`, error)
+      return error
+    }
   })
 }
 function readHot(type = 'tv') {
-  fs.readFile(path.resolve(`./${type}Data.json`), 'utf-8', (err, data) => {
-    if (err) {
-        throw err;
-    }
-    const result = JSON.parse(data.toString());
+  try {
+    const data = fs.readFileSync(path.resolve(`./src/${type}Data.json`))
+    const result = JSON.parse(data.toString())
+    result.pic = result.photos[Math.floor ( Math.random ( ) * 4 )] //4张图片随机取一张
     return result
-});
+  } catch (error) {
+    return error
+  }
 }
-
 
 function formatJson(list = []) {
   if (list.length === 0) return []
@@ -50,5 +52,5 @@ function getOptions(type = 'tv') {
     }
   }
 }
-const tool = { writeHot ,readHot}
+const tool = { writeHot, readHot }
 module.exports = tool
