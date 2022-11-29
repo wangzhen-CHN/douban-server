@@ -20,7 +20,10 @@ function readHot(type = 'tv') {
   try {
     const data = fs.readFileSync(path.resolve(`./src/${type}Data.json`))
     const result = JSON.parse(data.toString())
-    result.pic = result.photos[Math.floor ( Math.random ( ) * 4 )] //4张图片随机取一张
+    result.map(item=>{
+        item.pic = item.photos[Math.floor ( Math.random ( ) * 4 )] //4张图片随机取一张
+        return item
+    })
     return result
   } catch (error) {
     return error
