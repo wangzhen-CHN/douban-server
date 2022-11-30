@@ -4,7 +4,7 @@ const fs = require('fs')
 
 function writeHot(type = 'tv') {
   request(getOptions(type), (error, _, body) => {
-    const data = formatJson(JSON.parse(body).items)
+    const data = formatJson(JSON.parse(body).items,type)
     const date = new Date().toLocaleString()
     try {
       fs.writeFileSync(path.resolve(`./src/${type}Data.json`), JSON.stringify(data, null, 4))
@@ -22,6 +22,7 @@ function readHot(type = 'tv') {
     const result = JSON.parse(data.toString())
     result.map(item=>{
         item.pic = item.photos[Math.floor ( Math.random ( ) * 4 )] //4张图片随机取一张
+        item.type = type
         return item
     })
     return result
@@ -30,13 +31,16 @@ function readHot(type = 'tv') {
   }
 }
 
-function formatJson(list = []) {
+function formatJson(list = [],type) {
   if (list.length === 0) return []
-  return list.map((item) => {
+  return list.map((item,index) => {
     return {
+      index,
+      type,
       title: item.title,
       updateInfo: item.episodes_info,
       photos: item.photos,
+      pic:item.photos[Math.floor ( Math.random ( ) * 4 )], //4张图片随机取一张
       tags: item.card_subtitle
     }
   })

@@ -1,5 +1,7 @@
 [
     {
+        "index": 0,
+        "type": "movie",
         "title": "名侦探柯南：万圣节的新娘",
         "updateInfo": "",
         "photos": [
@@ -8,9 +10,12 @@
             "https://img9.doubanio.com/view/photo/m/public/p2883443194.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2883585441.jpg"
         ],
+        "pic": "https://img3.doubanio.com/view/photo/m/public/p2883443190.jpg",
         "tags": "2022 / 日本 / 动作 动画 悬疑 / 满仲劝 / 高山南 山崎和佳奈"
     },
     {
+        "index": 1,
+        "type": "movie",
         "title": "黑亚当",
         "updateInfo": "",
         "photos": [
@@ -19,9 +24,12 @@
             "https://img2.doubanio.com/view/photo/m/public/p2876621313.jpg",
             "https://img3.doubanio.com/view/photo/m/public/p2877730680.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2874306914.jpg",
         "tags": "2022 / 美国 加拿大 新西兰 匈牙利 / 动作 科幻 奇幻 / 佐米·希尔拉 / 道恩·强森 阿尔迪斯·霍吉"
     },
     {
+        "index": 2,
+        "type": "movie",
         "title": "坠落",
         "updateInfo": "",
         "photos": [
@@ -30,9 +38,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2880439069.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2883500518.jpg"
         ],
+        "pic": "https://img2.doubanio.com/view/photo/m/public/p2880439093.jpg",
         "tags": "2022 / 英国 美国 / 动作 惊悚 冒险 / 斯科特·曼 / 格雷斯·卡罗琳·柯里 维吉尼亚·加德纳"
     },
     {
+        "index": 3,
+        "type": "movie",
         "title": "分手的决心",
         "updateInfo": "",
         "photos": [
@@ -41,9 +52,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2872869418.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2875402071.jpg"
         ],
+        "pic": "https://img1.doubanio.com/view/photo/m/public/p2872869418.jpg",
         "tags": "2022 / 韩国 / 剧情 犯罪 悬疑 / 朴赞郁 / 汤唯 朴海日"
     },
     {
+        "index": 4,
+        "type": "movie",
         "title": "独行月球",
         "updateInfo": "",
         "photos": [
@@ -52,9 +66,12 @@
             "https://img2.doubanio.com/view/photo/m/public/p2876589602.jpg",
             "https://img3.doubanio.com/view/photo/m/public/p2875808660.jpg"
         ],
+        "pic": "https://img2.doubanio.com/view/photo/m/public/p2876589602.jpg",
         "tags": "2022 / 中国大陆 / 喜剧 科幻 / 张吃鱼 / 沈腾 马丽"
     },
     {
+        "index": 5,
+        "type": "movie",
         "title": "哥，你好",
         "updateInfo": "",
         "photos": [
@@ -63,9 +80,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2879967547.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2879949891.jpg"
         ],
+        "pic": "https://img2.doubanio.com/view/photo/m/public/p2879949891.jpg",
         "tags": "2022 / 中国大陆 / 剧情 喜剧 奇幻 / 张栾 / 马丽 常远"
     },
     {
+        "index": 6,
+        "type": "movie",
         "title": "新神榜：杨戬",
         "updateInfo": "",
         "photos": [
@@ -74,9 +94,12 @@
             "https://img9.doubanio.com/view/photo/m/public/p2877234775.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2878064638.jpg"
         ],
+        "pic": "https://img1.doubanio.com/view/photo/m/public/p2638620117.jpg",
         "tags": "2022 / 中国大陆 / 动作 动画 奇幻 / 赵霁 / 王凯 季冠霖"
     },
     {
+        "index": 7,
+        "type": "movie",
         "title": "西线无战事",
         "updateInfo": "",
         "photos": [
@@ -85,9 +108,12 @@
             "https://img9.doubanio.com/view/photo/m/public/p2876536924.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2879708118.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2876536924.jpg",
         "tags": "2022 / 德国 美国 英国 / 剧情 动作 战争 / 爱德华·贝尔格 / 费利克斯·卡默雷尔 阿尔布雷希特·舒赫"
     },
     {
+        "index": 8,
+        "type": "movie",
         "title": "悲情三角",
         "updateInfo": "",
         "photos": [
@@ -96,9 +122,12 @@
             "https://img3.doubanio.com/view/photo/m/public/p2873766660.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2873559727.jpg"
         ],
+        "pic": "https://img3.doubanio.com/view/photo/m/public/p2873766660.jpg",
         "tags": "2022 / 瑞典 法国 英国 德国 / 剧情 喜剧 / 鲁本·奥斯特伦德 / 哈里斯·迪金森 查尔比·迪恩·科里克"
     },
     {
+        "index": 9,
+        "type": "movie",
         "title": "人生大事",
         "updateInfo": "",
         "photos": [
@@ -107,9 +136,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2869487697.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2869383061.jpg"
         ],
+        "pic": "https://img2.doubanio.com/view/photo/m/public/p2869854302.jpg",
         "tags": "2022 / 中国大陆 中国香港 / 剧情 家庭 / 刘江江 / 朱一龙 杨恩又"
     },
     {
+        "index": 10,
+        "type": "movie",
         "title": "平凡英雄",
         "updateInfo": "",
         "photos": [
@@ -118,9 +150,12 @@
             "https://img2.doubanio.com/view/photo/m/public/p2880994863.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2880945429.jpg"
         ],
+        "pic": "https://img1.doubanio.com/view/photo/m/public/p2880945429.jpg",
         "tags": "2022 / 中国大陆 / 剧情 / 陈国辉 / 李冰冰 冯绍峰"
     },
     {
+        "index": 11,
+        "type": "movie",
         "title": "6/45",
         "updateInfo": "",
         "photos": [
@@ -129,9 +164,12 @@
             "https://img9.doubanio.com/view/photo/m/public/p2877740814.jpg",
             "https://img9.doubanio.com/view/photo/m/public/p2876540555.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2877740806.jpg",
         "tags": "2022 / 韩国 / 剧情 喜剧 / 朴奎泰 / 高庚杓 李伊庚"
     },
     {
+        "index": 12,
+        "type": "movie",
         "title": "沼泽深处的女孩",
         "updateInfo": "",
         "photos": [
@@ -140,20 +178,26 @@
             "https://img2.doubanio.com/view/photo/m/public/p2870219061.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2870219053.jpg"
         ],
+        "pic": "https://img3.doubanio.com/view/photo/m/public/p2870219050.jpg",
         "tags": "2022 / 美国 / 剧情 爱情 悬疑 / 奥利维亚·纽曼 / 黛西·埃德加-琼斯 泰勒·约翰·史密斯"
     },
     {
+        "index": 13,
+        "type": "movie",
         "title": "火山挚恋",
         "updateInfo": "",
         "photos": [
             "https://img9.doubanio.com/view/photo/m/public/p2776071986.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2776072089.jpg",
-            "https://img9.doubanio.com/view/photo/m/public/p2878267465.jpg",
-            "https://img9.doubanio.com/view/photo/m/public/p2776072096.jpg"
+            "https://img9.doubanio.com/view/photo/m/public/p2776072096.jpg",
+            "https://img9.doubanio.com/view/photo/m/public/p2878267465.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2776071986.jpg",
         "tags": "2022 / 加拿大 美国 / 纪录片 / 萨拉·多萨 / 米兰达·裘丽 卡提亚·克拉夫特"
     },
     {
+        "index": 14,
+        "type": "movie",
         "title": "子弹列车",
         "updateInfo": "",
         "photos": [
@@ -162,9 +206,12 @@
             "https://img2.doubanio.com/view/photo/m/public/p2878638012.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2873041947.jpg"
         ],
+        "pic": "https://img2.doubanio.com/view/photo/m/public/p2878638012.jpg",
         "tags": "2022 / 美国 日本 / 喜剧 动作 惊悚 / 大卫·雷奇 / 布拉德·皮特 乔伊·金"
     },
     {
+        "index": 15,
+        "type": "movie",
         "title": "危笑",
         "updateInfo": "",
         "photos": [
@@ -173,9 +220,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2882797509.jpg",
             "https://img9.doubanio.com/view/photo/m/public/p2882187724.jpg"
         ],
+        "pic": "https://img1.doubanio.com/view/photo/m/public/p2882797509.jpg",
         "tags": "2022 / 美国 / 恐怖 / 帕克·芬恩 / 索茜·贝肯 凯尔·加尔纳"
     },
     {
+        "index": 16,
+        "type": "movie",
         "title": "新·奥特曼",
         "updateInfo": "",
         "photos": [
@@ -184,9 +234,12 @@
             "https://img1.doubanio.com/view/photo/m/public/p2871302348.jpg",
             "https://img1.doubanio.com/view/photo/m/public/p2873122649.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2870689415.jpg",
         "tags": "2022 / 日本 / 科幻 / 樋口真嗣 / 斋藤工 长泽雅美"
     },
     {
+        "index": 17,
+        "type": "movie",
         "title": "万里归途",
         "updateInfo": "",
         "photos": [
@@ -195,9 +248,12 @@
             "https://img9.doubanio.com/view/photo/m/public/p2880603374.jpg",
             "https://img9.doubanio.com/view/photo/m/public/p2880794845.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2880794845.jpg",
         "tags": "2022 / 中国大陆 / 剧情 战争 / 饶晓志 / 张译 王俊凯"
     },
     {
+        "index": 18,
+        "type": "movie",
         "title": "隐入尘烟",
         "updateInfo": "",
         "photos": [
@@ -206,9 +262,12 @@
             "https://img2.doubanio.com/view/photo/m/public/p2855439942.jpg",
             "https://img2.doubanio.com/view/photo/m/public/p2868279653.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2855440016.jpg",
         "tags": "2022 / 中国大陆 / 剧情 / 李睿珺 / 武仁林 海清"
     },
     {
+        "index": 19,
+        "type": "movie",
         "title": "黑豹2",
         "updateInfo": "",
         "photos": [
@@ -217,6 +276,7 @@
             "https://img9.doubanio.com/view/photo/m/public/p2881304475.jpg",
             "https://img9.doubanio.com/view/photo/m/public/p2881700115.jpg"
         ],
+        "pic": "https://img9.doubanio.com/view/photo/m/public/p2876685575.jpg",
         "tags": "2022 / 美国 / 剧情 动作 科幻 / 瑞恩·库格勒 / 利蒂希娅·赖特 露皮塔·尼永奥"
     }
 ]
