@@ -3,11 +3,12 @@ const path = require('path')
 const fs = require('fs')
 
 function writeHot(type = 'tv') {
+  const FILE_PATH = path.join(__dirname, `./${type}Data.json`)
   request(getOptions(type), (error, _, body) => {
     const data = formatJson(JSON.parse(body).items,type)
     const date = new Date().toLocaleString()
     try {
-      fs.writeFileSync(path.resolve(`./src/${type}Data.json`), JSON.stringify(data, null, 4))
+      fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 4))
       console.log(`${date} 写入 ${type}Data 成功`)
       return '请求成功'
     } catch (error) {
@@ -17,8 +18,9 @@ function writeHot(type = 'tv') {
   })
 }
 function readHot(type = 'tv') {
+  const FILE_PATH = path.join(__dirname, `./${type}Data.json`)
   try {
-    const data = fs.readFileSync(path.resolve(`./src/${type}Data.json`))
+    const data = fs.readFileSync(FILE_PATH)
     const result = JSON.parse(data.toString())
     result.map(item=>{
         item.pic = item.photos[Math.floor ( Math.random ( ) * 4 )] //4张图片随机取一张
