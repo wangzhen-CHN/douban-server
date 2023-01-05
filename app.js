@@ -50,5 +50,5 @@ app.get('/movie', async (_, res) => {
 })
 
 app.listen(8010, () => {
-  console.log('豆瓣服务已启动： http://localhost:8010')
+  console.log('【豆瓣服务】已启动： http://localhost:8010')
 })

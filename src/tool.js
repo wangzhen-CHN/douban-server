@@ -9,10 +9,10 @@ function writeHot(type = 'tv') {
     const date = new Date().toLocaleString()
     try {
       fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 4))
-      console.log(`${date} 写入 ${type}Data 成功`)
+      console.log(`【豆瓣服务】${date} 写入 ${type}Data 成功`)
       return '请求成功'
     } catch (error) {
-      console.log(`${date} 写入 ${type}Data 失败`, error)
+      console.log(`【豆瓣服务】${date} 写入 ${type}Data 失败`, error)
       return error
     }
   })
