@@ -49,6 +49,6 @@ app.get('/movie', async (_, res) => {
   res.json({ success: true, data: readHot('movie') })
 })
 
-app.listen(8010, () => {
-  console.log('【豆瓣服务】已启动： http://localhost:8010')
+app.listen(9004, () => {
+  console.log('【豆瓣服务】已启动： http://localhost:9004')
 })
