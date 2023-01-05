@@ -50,5 +50,5 @@ app.get('/movie', async (_, res) => {
 })
 
 app.listen(9004, () => {
-  console.log('【豆瓣服务】已启动： http://localhost:9004')
+  console.log(`【豆瓣服务】${new Date().toLocaleString()} 已启动：http://localhost:9004'`)
 })
